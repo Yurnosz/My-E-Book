@@ -1,0 +1,52 @@
+/* CSS untuk halaman dengan gambar yang dibingkai */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Warna latar belakang keseluruhan halaman */
+}
+
+.image-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff; /* Warna latar belakang bingkai gambar */
+  box-shadow: 0px 0px 10px 0px #888888;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Ruang di bawah gambar */
+.space-below {
+  height: 50px;
+}
+
+.ebook-page a {
+  display: block;
+  margin-top: 20px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.page {
+  text-align: center;
+  font-family: 'franklin gothic medium'
+}
+
+.ebook-page a:hover {
+  text-decoration: underline;
+}
+
+.ebook-menu {
+  text-align: left;
+}
+
+.button {
+  background-color: #3498db;
+  color: ghostwhite;
+}
